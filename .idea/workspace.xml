@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ade434db-dbe2-476e-a69c-96b3a50e0f9c" name="Default Changelist" comment="" />
+    <list default="true" id="ade434db-dbe2-476e-a69c-96b3a50e0f9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team_optimizer/opt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team_optimizer/sign_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/team_optimizer/sign_up.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +25,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1YDLnYzXf7PMbJoNXOrz2OOl7jX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,15 +43,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.44121212" />
   </component>
-  <component name="RunManager" selected="Python.get_csv">
+  <component name="RunManager" selected="Python.opt">
     <configuration name="get_csv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="team_optimizer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -52,6 +71,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/team_optimizer/get_csv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="opt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="team_optimizer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/team_optimizer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/team_optimizer/opt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,6 +125,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.opt" />
         <item itemvalue="Python.get_csv" />
         <item itemvalue="Python.sign_up" />
       </list>
@@ -99,7 +141,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582472385772</updated>
-      <workItem from="1582472387424" duration="6549000" />
+      <workItem from="1582472387424" duration="10031000" />
+      <workItem from="1582533878567" duration="55000" />
+      <workItem from="1582533947815" duration="1086000" />
     </task>
     <servers />
   </component>
@@ -107,52 +151,73 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1582485581847">
+    <state x="555" y="215" width="800" height="684" key="#Project_Structure" timestamp="1582549574536">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1582485581847" />
-    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1582485581847">
+    <state x="555" y="215" width="800" height="684" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1582549574536" />
+    <state x="743" y="252" width="424" height="610" key="FileChooserDialogImpl" timestamp="1582549608758">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1582485581847" />
-    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1582485581847">
+    <state x="743" y="252" width="424" height="610" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1582549608758" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1582549404867">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1582485581847" />
-    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1582485581847">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1582549404867" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1582549404866">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1582485581847" />
-    <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1582485275414">
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1582549404866" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1582549404865">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1582485275414" />
-    <state width="1874" height="340" key="GridCell.Tab.1.center" timestamp="1582485275414">
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1582549404865" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1582549404866">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1582485275414" />
-    <state width="1874" height="340" key="GridCell.Tab.1.left" timestamp="1582485275414">
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1582549404866" />
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1582533851877">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1582485275414" />
-    <state width="1874" height="340" key="GridCell.Tab.1.right" timestamp="1582485275414">
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1582533851877" />
+    <state width="1874" height="340" key="GridCell.Tab.1.center" timestamp="1582533851877">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1582485275414" />
+    <state width="1874" height="340" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1582533851877" />
+    <state width="1874" height="340" key="GridCell.Tab.1.left" timestamp="1582533851877">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1582533851877" />
+    <state width="1874" height="340" key="GridCell.Tab.1.right" timestamp="1582533851877">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1582533851877" />
+    <state x="545" y="208" width="819" height="698" key="NewModule_or_Project.wizard" timestamp="1582549619327">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="545" y="208" width="819" height="698" key="NewModule_or_Project.wizard/0.27.1920.1053@0.27.1920.1053" timestamp="1582549619327" />
+    <state x="443" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1582549552830">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="443" y="131" width="1024" height="852" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1582549552830" />
+    <state x="264" y="135" width="1372" height="850" key="new project wizard" timestamp="1582534099546">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="264" y="135" width="1372" height="850" key="new project wizard/0.27.1920.1053@0.27.1920.1053" timestamp="1582534099546" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/team_optimizer/sign_up.py</url>
-          <line>20</line>
+          <line>23</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/team_optimizer$get_csv.coverage" NAME="get_csv Coverage Results" MODIFIED="1582485275403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/team_optimizer" />
+    <SUITE FILE_PATH="coverage/team_optimizer$opt.coverage" NAME="opt Coverage Results" MODIFIED="1582534015155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/team_optimizer" />
+    <SUITE FILE_PATH="coverage/team_optimizer$get_csv.coverage" NAME="get_csv Coverage Results" MODIFIED="1582492078419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/team_optimizer" />
     <SUITE FILE_PATH="coverage/team_optimizer$sign_up.coverage" NAME="sign_up Coverage Results" MODIFIED="1582485214919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/team_optimizer" />
   </component>
 </project>

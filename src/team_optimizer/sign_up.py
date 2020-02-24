@@ -17,5 +17,8 @@ class SignUp():
         for f in fields(cls):
             for k,v in d.items():
                 if f.name in k.lower():
-                    result[f.name] = v
+                    if f.type==int:
+                        result[f.name] = f.type(v[:1])
+                    else:
+                        result[f.name] = f.type(v)
         return cls(**result)
